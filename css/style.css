@@ -1,0 +1,147 @@
+.nav-bar
+{
+    width: 100%;
+    background-color: purple;
+    height: 80px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px;
+    position: sticky;
+    top: 0px;
+}
+
+.nav-div
+{
+    background-color: #f8f9fa;
+    left: 0;
+    height: 100%;
+    z-index: 1;
+}
+.add-list-row
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.add-list-title
+{
+    font-size: 30px;
+}
+
+.add-list-bt
+{
+    border: 2px solid black;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.list-form
+{
+    margin-top: 20px;
+    display: none;
+}
+
+.delete-list-btn
+{
+    border: none;
+    background-color: transparent;
+    color: #bfbbb0;
+    margin-left: 10px;
+    display: none;
+}
+
+.todo-title-list-item:hover>.delete-list-btn
+{
+    display: inline-block;
+}
+
+.delete-task-btn
+{
+    border: none;
+    background-color: transparent;
+    color: #bfbbb0;
+    margin-left: 10px;
+    display: none;
+}
+
+.todo-item:hover>.delete-task-btn
+{
+    display: inline-block;
+}
+
+ul
+{
+list-style: none;
+font-family: cursive;
+font-weight: bold;
+color: purple;
+text-decoration: underline;
+}
+
+li
+{
+    margin-bottom: 10px;
+}
+
+.list-icon
+{
+    margin-right: 10px;
+}
+
+.add-task-bt
+{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    z-index: 9999999;
+}
+
+.todo-list
+{
+    margin-top: 62px
+}
+
+
+#add-todo-task-bt
+{
+    display: none;
+}
+
+@media only screen and (max-width: 595px) 
+{
+    .add-list-title
+    {
+    font-size:20px;
+    font-weight: bold;
+    }
+}
+
+@media only screen and (max-width: 830px) 
+{
+.list-form
+{
+    display: none;
+}
+}
+
+@media only screen and (max-width: 770px) 
+{
+#todo-item-list
+{
+    margin-left: 50px;
+}
+}
+
